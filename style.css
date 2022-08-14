@@ -2,12 +2,12 @@ body {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    font-family: , 
+    display: flex;
+    flex-direction: column;
 }
 
 .SectionOneBackground {
     background-color: #1f2937;
-
 }
 
 .Headerbox {
@@ -27,6 +27,7 @@ header {
 header h1 {
     font-size: 24px;
     color: #f9faf8;
+    font-family: roboto;
 }
 
 ul {
@@ -91,4 +92,105 @@ button a {
 .imagecontainer {
     display: flex;
     width: 400px;
+}
+
+.SectionTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SectionTwo h1 {
+    padding-bottom: 20px;
+}
+
+.infobox {
+    display: flex;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 20px;
+}
+
+.infobox p {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info1 div {
+    border: 4px solid rgb(3, 140, 231);
+    border-radius: 12px;
+    width: 120px;
+    height: 120px;
+}
+
+.info2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info2 div {
+    border: 4px solid rgb(3, 140, 231);
+    border-radius: 12px;
+    width: 120px;
+    height: 120px;
+}
+
+.info3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info3 div {
+    border: 4px solid rgb(3, 140, 231);
+    border-radius: 12px;
+    width: 120px;
+    height: 120px;
+}
+
+.info4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info4 div {
+    border: 4px solid rgb(3, 140, 231);
+    border-radius: 12px;
+    width: 120px;
+    height: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sectionThree {
+    background-color: gray;
 }
