@@ -1,7 +1,5 @@
 body {
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 0px;
     display: flex;
     flex-direction: column;
 }
@@ -14,8 +12,8 @@ body {
     align-items: center;
     background-color: #1f2937;
     margin-top: auto;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 header {
     font-size: 24px;
@@ -103,6 +101,7 @@ button a {
 
 .SectionTwo h1 {
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .infobox {
@@ -174,23 +173,78 @@ button a {
     width: 120px;
     height: 120px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .sectionThree {
-    background-color: gray;
+    background-color: #E5e7eb;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    
+}
+
+.QuoteBox .Quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.SectionFour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SectionFour {
+    padding: 150px 100px;
+}
+
+.SectionFour .CallToActionBox {
+   background-color: #3882f6;
+   padding: 30px 140px;
+   border-radius: 8px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 120px;
+}
+
+.CallToActionBox .ButtonBox {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CallToActionText {
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.CallToActionText .main {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.CallToActionText .sub {
+    margin-top: 4px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
 }
