@@ -1,0 +1,94 @@
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: , 
+}
+
+.SectionOneBackground {
+    background-color: #1f2937;
+
+}
+
+.Headerbox {
+    align-items: center;
+    background-color: #1f2937;
+    margin-top: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+header {
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+header h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: none;
+
+    gap: 10px;
+}
+
+li {
+    padding: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5e7eb;
+}
+
+.container {
+    display: flex;
+    flex-shrink: 1;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 100px;
+    padding-top: 80px;
+}
+
+.awesomecontainer {
+    width: 400px
+}
+
+.awesomecontainer h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+.awesomecontainer p {
+    font-size: 18px;
+    color: #E5e7eb; 
+    margin-bottom: 15px; 
+    padding: 0px; 
+}
+
+button {
+    color: #fefeff;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 5px;
+    border: 0px;
+    gap: 5px;
+}
+button a {
+    padding: 25px;
+    font-weight: 700;
+}
+
+.imagecontainer {
+    display: flex;
+    width: 400px;
+}
